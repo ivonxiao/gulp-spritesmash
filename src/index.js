@@ -28,7 +28,7 @@ function spriteSmash(options) {
   ].concat(opts.updateFormats);
 
   function buildHashString(filePath, hash) {
-    return `${filePath.name}-${hash}${filePath.ext}`;
+    return `${filePath.name}${filePath.ext}?v=${hash}`;
   }
 
   function MD5Hash(filePath, contents) {

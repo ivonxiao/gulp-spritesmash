@@ -4,12 +4,12 @@
 > Versions your static assests based on their content 
   and updates all references to them in other passed files.
 
-> `sprite.png` → `sprite-e59ace00a5.png`
+> `sprite.png` → `sprite?v=e59ace00a5.png`
 
 > `sprite.css`
 ```css
   .icon-sprite1 {
-    background-image: url(sprite-e59ace00a5.png);
+    background-image: url(sprite?v=e59ace00a5.png);
     background-position: 0px 0px;
     width: 32px;
     height: 32px;
