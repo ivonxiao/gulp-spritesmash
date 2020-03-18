@@ -1,4 +1,4 @@
-# gulp-spritesmash [![Build Status](https://img.shields.io/travis/MasterOfMalt/gulp-spritesmash.svg?style=flat-square)](https://travis-ci.org/MasterOfMalt/gulp-spritesmash/) [![Build Status](https://img.shields.io/npm/v/gulp-spritesmash.svg?style=flat-square)](https://www.npmjs.com/package/gulp-spritesmash)
+# gulp-spriteversion ![Build Status](https://img.shields.io/npm/v/gulp-spriteversion.svg?style=flat-square)](https://www.npmjs.com/package/gulp-spriteversion)
 
 
 > Versions your static assests based on their content 
@@ -24,7 +24,7 @@ has changed.
 
 ## Install
 ```
-$ npm install --save-dev gulp-spritesmash
+$ npm install --save-dev gulp-spriteversion
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ $ npm install --save-dev gulp-spritesmash
 var gulp = require('gulp');
 var spritesmith = require('gulp.spritesmith');
 var buffer = require('gulp-buffer');
-var spritesmash = require('gulp-spritesmash');
+var spritesmash = require('gulp-spriteversion');
 
 gulp.task('default', function () {
 	return gulp.src('src/images/*.{png}')
